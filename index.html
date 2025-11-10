@@ -1,15 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My First Web Page</title>
-  <link rel="stylesheet" href="style.css">
+    <title> Task4- Css and AI</title>
+
+   
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f0f8ff;
+        }
+
+      
+        #heading {
+            color: darkblue;
+            text-align: center;
+        }
+        .box {
+            border: 2px solid gray;
+            padding: 15px;
+            margin: 15px;
+            background-color: white;
+        }
+    
+        .highlight {
+            color: red;
+            font-weight: bold;
+        }
+
+   
+        #left {
+            float: left;
+            width: 45%;
+        }
+
+        #right {
+            float: right;
+            width: 45%;
+        }
+
+        .clear {
+            clear: both;
+        }
+    </style>
 </head>
+
 <body>
-  <h1>Welcome to My Website</h1>
-  <p>This is my first HTML and CSS project uploaded using GitHub Desktop.</p>
-  <p>So lets start with this.</p>
-  
+
+    <h1 id="heading">Advantages of Artificial Intelligence</h1>
+
+    <div id="left" class="box">
+        <h2>Automation</h2>
+
+
+        <p><span class="highlight">AI automation</span> helps complete repetitive tasks quickly and saves human effort.</p>
+    </div>
+
+    <div id="right" class="box">
+        <h2>Decision Making</h2>
+        <p><span class="highlight">AI systems</span> can analyze big data and make fast and accurate decisions.</p>
+    </div>
+
+    <div class="clear"></div>
+
+    <div class="box">
+        <p>Created by <span class="highlight">Saman</span> — Lab 9 Submission on Artificial Intelligence.</p>
+    </div>
+
 </body>
 </html>
+
